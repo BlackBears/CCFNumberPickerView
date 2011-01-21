@@ -1,10 +1,7 @@
-//
-//  CCFMeasureStripContentView.m
-//  CCFMeasureStrip
-//
-//  Created by Alan Duncan on 1/11/11.
-//  Copyright 2011 __MyCompanyName__. All rights reserved.
-//
+/**
+ *  CCFNumberPickerContentView.m
+ *  Copyright (c) 2011 Cocoa Factory, LLC
+ */
 
 #import "CCFNumberPickerData.h"
 #import "CCFNumberPickerContentView.h"

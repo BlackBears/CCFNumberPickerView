@@ -22,10 +22,10 @@
 		E7ED679212E907CF00FA74B5 /* CCFNumberPickerView.m in Sources */ = {isa = PBXBuildFile; fileRef = E7ED678B12E907CF00FA74B5 /* CCFNumberPickerView.m */; };
 		E7ED679312E907CF00FA74B5 /* CCFPointerView.m in Sources */ = {isa = PBXBuildFile; fileRef = E7ED678D12E907CF00FA74B5 /* CCFPointerView.m */; };
 		E7ED679412E907CF00FA74B5 /* License.txt in Resources */ = {isa = PBXBuildFile; fileRef = E7ED678E12E907CF00FA74B5 /* License.txt */; };
-		E7ED679612E909A600FA74B5 /* README.rtf in Resources */ = {isa = PBXBuildFile; fileRef = E7ED679512E909A600FA74B5 /* README.rtf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		E74BA0F212E9156900C8198C /* README.markdown */ = {isa = PBXFileReference; lastKnownFileType = text; path = README.markdown; sourceTree = SOURCE_ROOT; };
 		E7B3816F12E884C20092A79C /* CCFNumberPicker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CCFNumberPicker.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E7B3817312E884C20092A79C /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		E7B3817512E884C20092A79C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -53,7 +53,6 @@
 		E7ED678C12E907CF00FA74B5 /* CCFPointerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCFPointerView.h; sourceTree = "<group>"; };
 		E7ED678D12E907CF00FA74B5 /* CCFPointerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCFPointerView.m; sourceTree = "<group>"; };
 		E7ED678E12E907CF00FA74B5 /* License.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = License.txt; sourceTree = "<group>"; };
-		E7ED679512E909A600FA74B5 /* README.rtf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.rtf; path = README.rtf; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +99,7 @@
 		E7B3817912E884C20092A79C /* CCFNumberPicker */ = {
 			isa = PBXGroup;
 			children = (
+				E74BA0F212E9156900C8198C /* README.markdown */,
 				E7B3819312E885580092A79C /* CCFNumberPickerView */,
 				E7B3818212E884C20092A79C /* AppDelegate.h */,
 				E7B3818312E884C20092A79C /* AppDelegate.m */,
@@ -126,7 +126,6 @@
 		E7B3819312E885580092A79C /* CCFNumberPickerView */ = {
 			isa = PBXGroup;
 			children = (
-				E7ED679512E909A600FA74B5 /* README.rtf */,
 				E7ED678212E907CF00FA74B5 /* bezel-shadow.png.h */,
 				E7ED678312E907CF00FA74B5 /* CCFLimitedConveniences.h */,
 				E7ED678412E907CF00FA74B5 /* CCFNumberPickerContentView.h */,
@@ -195,7 +194,6 @@
 				E7B3818712E884C20092A79C /* MainWindow.xib in Resources */,
 				E7B3818D12E884C20092A79C /* CCFNumberPickerViewController.xib in Resources */,
 				E7ED679412E907CF00FA74B5 /* License.txt in Resources */,
-				E7ED679612E909A600FA74B5 /* README.rtf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -1,11 +1,16 @@
-//
-//  CCFMeasureScrollView.h
-//  CCFNumberPicker
-//
-//  Created by Alan Duncan on 1/11/11.
-//  Copyright 2011 __MyCompanyName__. All rights reserved.
-//
-
+/**
+ *      @file       CCFNumberPickerScrollView 
+ *      @author     Cocoa Factory, LLC and Alan Duncan (www.cocoafactory.com)
+ *
+ *      @date       2011-11-01
+ *      @version    1.0
+ *
+ *      @note       Copyright (c) 2011 Cocoa Factory, LLC
+ *                  CCFNumberPicker may be used freely in accordance with the terms of our
+ *                  MIT license which is included with this distribution.  Basicaly, we ask
+ *                  only for attribution.
+ *      
+ */
 #import <UIKit/UIKit.h>
 
 @class CCFNumberPickerContentView;

@@ -1,3 +1,35 @@
+/**
+ *      @file       bezel-shadow.png.h
+ *      @author     Cocoa Factory, LLC and Alan Duncan (www.cocoafactory.com)
+ *
+ *      @date       2011-20-01
+ *      @version    1.0
+ *
+ *
+ *      @note       This file contains the binary representation of a png file in the forms of a 
+ *                  long unsigned char C array.  We use this representation of the png that becomes
+ *                  the shadow cast by the bezel because it affords the ability to refactor this project
+ *                  as a static library if desired.  Otherwise, image resources cannot be included in
+ *                  in a static library.\n
+ *                  This is quite a useful technique for creation of static libraries that require image
+ *                  resources.  Briefly, to use this technique, you can use a built in tool (xxd) to
+ *                  create a header file containing the unsigned char C array.  To do this on the command line:
+ *                  \code xxd -i your-ping-file.png > ping-file-as-header.png.h \endcode \ n
+ *                  Then import the resulting source file into your project.  In order to use the array in your 
+ *                  library: \n \code
+ *                  unsigned char *imageBytes = bezel_shadow_png;
+ *                  NSUInteger imageLength = bezel_shadow_png_len;
+ *                  NSData *imageData = [NSData dataWithBytesNoCopy:imageBytes length:imageLength freeWhenDone:NO];
+ *                  UIImage *reconstitutedImage = [UIImage imageWithData:imageData];
+ *                  \endcode
+ *
+ *
+ *      @note       Copyright (c) 2011 Cocoa Factory, LLC
+ *                  CCFNumberPicker may be used freely in accordance with the terms of our
+ *                  MIT license which is included with this distribution.  Basicaly, we ask
+ *                  only for attribution.
+ *      
+ */
 #ifndef __BEZEL_SHADOW_PNG_H
 #define __BEZEL_SHADOW_PNG_H
 

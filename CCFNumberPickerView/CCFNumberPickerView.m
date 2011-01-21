@@ -1,10 +1,8 @@
-//
-//  CCFMeasureStripView.m
-//  CCFMeasureStrip
-//
-//  Created by Alan Duncan on 1/12/11.
-//  Copyright 2011 __MyCompanyName__. All rights reserved.
-//
+/**
+ *  CCFNumberPickerView.m
+ *  Copyright (c) 2011 Cocoa Factory, LLC
+ */
+
 
 #import "CCFNumberPickerView.h"
 #import "CCFNumberPickerScrollView.h"
@@ -188,10 +186,7 @@ static const NSTimeInterval SNAP_LATENCY = 0.2f;
     }
     CGPoint offset = [scrollView contentOffset];
     _currentValue = [_data representedValueForOffset:offset.x];
-    if( _data.showsValueInScale )
-    {
-        [self _displayCurrentValue];
-    }
+    [self _displayCurrentValue];
 }
 
 - (void)scrollViewWillBeginDragging:(UIScrollView *)scrollView;
@@ -204,6 +199,7 @@ static const NSTimeInterval SNAP_LATENCY = 0.2f;
 
 - (void)_displayCurrentValue;
 {
+    if( !_data.showsValueInScale ) { return; }
     NSString *valString = [NSString stringWithFormat:[_data indicatorNumFormat],_currentValue];
     [[self indicatorLabel] setText:valString];
 }

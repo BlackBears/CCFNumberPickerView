@@ -1,11 +1,16 @@
-//
-//  CCFNumberPickerData.h
-//  CCFNumberPicker
-//
-//  Created by Alan Duncan on 1/14/11.
-//  Copyright 2011 __MyCompanyName__. All rights reserved.
-//
-
+/**
+ *      @file       CCFNumberPickerData.h
+ *      @author     Cocoa Factory, LLC and Alan Duncan (www.cocoafactory.com)
+ *
+ *      @date       2011-14-01
+ *      @version    1.0
+ *
+ *      @note       Copyright (c) 2011 Cocoa Factory, LLC
+ *                  CCFNumberPicker may be used freely in accordance with the terms of our
+ *                  MIT license which is included with this distribution.  Basicaly, we ask
+ *                  only for attribution.
+ *      
+ */
 #import <Foundation/Foundation.h>
 
 typedef enum CCFNumberPickerStyles {

@@ -1,10 +1,7 @@
-//
-//  CCFMeasureBezelView.m
-//  CCFMeasureStrip
-//
-//  Created by Alan Duncan on 1/12/11.
-//  Copyright 2011 __MyCompanyName__. All rights reserved.
-//
+/**
+ *  CCFPointerView.m
+ *  Copyright (c) 2011 Cocoa Factory, LLC
+ */
 
 #import "CCFPointerView.h"
 #import "CCFNumberPickerData.h"

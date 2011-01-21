@@ -1,10 +1,8 @@
-//
-//  CCFNumberPickerViewController.m
-//  CCFNumberPicker
-//
-//  Created by Alan Duncan on 1/20/11.
-//  Copyright 2011 __MyCompanyName__. All rights reserved.
-//
+
+/**
+ *  CCFNumberPickerViewController.m
+ *  Copyright (c) 2011 Cocoa Factory, LLC
+ */
 
 #import "CCFNumberPickerViewController.h"
 #import "CCFNumberPickerData.h"
@@ -16,7 +14,6 @@
 {
     self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
     if (self) {
-        // Custom initialization
     }
     return self;
 }
@@ -28,20 +25,10 @@
 
 - (void)didReceiveMemoryWarning
 {
-    // Releases the view if it doesn't have a superview.
     [super didReceiveMemoryWarning];
-    
-    // Release any cached data, images, etc that aren't in use.
 }
 
 #pragma mark - View lifecycle
-
-/*
-// Implement loadView to create a view hierarchy programmatically, without using a nib.
-- (void)loadView
-{
-}
-*/
 
 - (void)viewDidLoad
 {
@@ -55,7 +42,8 @@
     [data setMajorTickUnit:10];
     [data setMajorTickNumFormat:@"%0.0f"];
     [data setIndicatorNumFormat:@"%0.2f"];
-    [data setStyle:CCFNumberPickerStyleLight];
+    [data setStyle:CCFNumberPickerStyleDark];
+    [data setShowsValueInScale:NO];
     [pickerView setData:[data autorelease]];
 
 }
@@ -63,13 +51,10 @@
 - (void)viewDidUnload
 {
     [super viewDidUnload];
-    // Release any retained subviews of the main view.
-    // e.g. self.myOutlet = nil;
 }
 
 - (BOOL)shouldAutorotateToInterfaceOrientation:(UIInterfaceOrientation)interfaceOrientation
 {
-    // Return YES for supported orientations
     return (interfaceOrientation == UIInterfaceOrientationPortrait);
 }
 

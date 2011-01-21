@@ -1,10 +1,7 @@
-//
-//  main.m
-//  CCFNumberPicker
-//
-//  Created by Alan Duncan on 1/20/11.
-//  Copyright 2011 __MyCompanyName__. All rights reserved.
-//
+/**
+ *  main.m
+ *  Copyright (c) 2011 Cocoa Factory, LLC
+ */
 
 #import <UIKit/UIKit.h>
 

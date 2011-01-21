@@ -1,10 +1,7 @@
-//
-//  CCFMeasureStripData.m
-//  CCFMeasureStrip
-//
-//  Created by Alan Duncan on 1/14/11.
-//  Copyright 2011 __MyCompanyName__. All rights reserved.
-//
+/**
+ *  CCFNumberPickerData.m
+ *  Copyright (c) 2011 Cocoa Factory, LLC
+ */
 
 #import "CCFNumberPickerData.h"
 
