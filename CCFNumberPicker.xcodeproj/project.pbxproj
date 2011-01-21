@@ -1,0 +1,331 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E7B3817412E884C20092A79C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E7B3817312E884C20092A79C /* UIKit.framework */; };
+		E7B3817612E884C20092A79C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E7B3817512E884C20092A79C /* Foundation.framework */; };
+		E7B3817812E884C20092A79C /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E7B3817712E884C20092A79C /* CoreGraphics.framework */; };
+		E7B3817E12E884C20092A79C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E7B3817C12E884C20092A79C /* InfoPlist.strings */; };
+		E7B3818112E884C20092A79C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E7B3818012E884C20092A79C /* main.m */; };
+		E7B3818412E884C20092A79C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E7B3818312E884C20092A79C /* AppDelegate.m */; };
+		E7B3818712E884C20092A79C /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = E7B3818512E884C20092A79C /* MainWindow.xib */; };
+		E7B3818A12E884C20092A79C /* CCFNumberPickerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E7B3818912E884C20092A79C /* CCFNumberPickerViewController.m */; };
+		E7B3818D12E884C20092A79C /* CCFNumberPickerViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E7B3818B12E884C20092A79C /* CCFNumberPickerViewController.xib */; };
+		E7ED678F12E907CF00FA74B5 /* CCFNumberPickerContentView.m in Sources */ = {isa = PBXBuildFile; fileRef = E7ED678512E907CF00FA74B5 /* CCFNumberPickerContentView.m */; };
+		E7ED679012E907CF00FA74B5 /* CCFNumberPickerData.m in Sources */ = {isa = PBXBuildFile; fileRef = E7ED678712E907CF00FA74B5 /* CCFNumberPickerData.m */; };
+		E7ED679112E907CF00FA74B5 /* CCFNumberPickerScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = E7ED678912E907CF00FA74B5 /* CCFNumberPickerScrollView.m */; };
+		E7ED679212E907CF00FA74B5 /* CCFNumberPickerView.m in Sources */ = {isa = PBXBuildFile; fileRef = E7ED678B12E907CF00FA74B5 /* CCFNumberPickerView.m */; };
+		E7ED679312E907CF00FA74B5 /* CCFPointerView.m in Sources */ = {isa = PBXBuildFile; fileRef = E7ED678D12E907CF00FA74B5 /* CCFPointerView.m */; };
+		E7ED679412E907CF00FA74B5 /* License.txt in Resources */ = {isa = PBXBuildFile; fileRef = E7ED678E12E907CF00FA74B5 /* License.txt */; };
+		E7ED679612E909A600FA74B5 /* README.rtf in Resources */ = {isa = PBXBuildFile; fileRef = E7ED679512E909A600FA74B5 /* README.rtf */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		E7B3816F12E884C20092A79C /* CCFNumberPicker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CCFNumberPicker.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E7B3817312E884C20092A79C /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		E7B3817512E884C20092A79C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		E7B3817712E884C20092A79C /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		E7B3817B12E884C20092A79C /* CCFNumberPicker-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CCFNumberPicker-Info.plist"; sourceTree = "<group>"; };
+		E7B3817D12E884C20092A79C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		E7B3817F12E884C20092A79C /* CCFNumberPicker-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CCFNumberPicker-Prefix.pch"; sourceTree = "<group>"; };
+		E7B3818012E884C20092A79C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E7B3818212E884C20092A79C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		E7B3818312E884C20092A79C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		E7B3818612E884C20092A79C /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		E7B3818812E884C20092A79C /* CCFNumberPickerViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CCFNumberPickerViewController.h; sourceTree = "<group>"; };
+		E7B3818912E884C20092A79C /* CCFNumberPickerViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CCFNumberPickerViewController.m; sourceTree = "<group>"; };
+		E7B3818C12E884C20092A79C /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/CCFNumberPickerViewController.xib; sourceTree = "<group>"; };
+		E7ED678212E907CF00FA74B5 /* bezel-shadow.png.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "bezel-shadow.png.h"; sourceTree = "<group>"; };
+		E7ED678312E907CF00FA74B5 /* CCFLimitedConveniences.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCFLimitedConveniences.h; sourceTree = "<group>"; };
+		E7ED678412E907CF00FA74B5 /* CCFNumberPickerContentView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCFNumberPickerContentView.h; sourceTree = "<group>"; };
+		E7ED678512E907CF00FA74B5 /* CCFNumberPickerContentView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCFNumberPickerContentView.m; sourceTree = "<group>"; };
+		E7ED678612E907CF00FA74B5 /* CCFNumberPickerData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCFNumberPickerData.h; sourceTree = "<group>"; };
+		E7ED678712E907CF00FA74B5 /* CCFNumberPickerData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCFNumberPickerData.m; sourceTree = "<group>"; };
+		E7ED678812E907CF00FA74B5 /* CCFNumberPickerScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCFNumberPickerScrollView.h; sourceTree = "<group>"; };
+		E7ED678912E907CF00FA74B5 /* CCFNumberPickerScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCFNumberPickerScrollView.m; sourceTree = "<group>"; };
+		E7ED678A12E907CF00FA74B5 /* CCFNumberPickerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCFNumberPickerView.h; sourceTree = "<group>"; };
+		E7ED678B12E907CF00FA74B5 /* CCFNumberPickerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCFNumberPickerView.m; sourceTree = "<group>"; };
+		E7ED678C12E907CF00FA74B5 /* CCFPointerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCFPointerView.h; sourceTree = "<group>"; };
+		E7ED678D12E907CF00FA74B5 /* CCFPointerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCFPointerView.m; sourceTree = "<group>"; };
+		E7ED678E12E907CF00FA74B5 /* License.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = License.txt; sourceTree = "<group>"; };
+		E7ED679512E909A600FA74B5 /* README.rtf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.rtf; path = README.rtf; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E7B3816C12E884C20092A79C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E7B3817412E884C20092A79C /* UIKit.framework in Frameworks */,
+				E7B3817612E884C20092A79C /* Foundation.framework in Frameworks */,
+				E7B3817812E884C20092A79C /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E7B3816412E884C20092A79C = {
+			isa = PBXGroup;
+			children = (
+				E7B3817912E884C20092A79C /* CCFNumberPicker */,
+				E7B3817212E884C20092A79C /* Frameworks */,
+				E7B3817012E884C20092A79C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E7B3817012E884C20092A79C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E7B3816F12E884C20092A79C /* CCFNumberPicker.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E7B3817212E884C20092A79C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E7B3817312E884C20092A79C /* UIKit.framework */,
+				E7B3817512E884C20092A79C /* Foundation.framework */,
+				E7B3817712E884C20092A79C /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E7B3817912E884C20092A79C /* CCFNumberPicker */ = {
+			isa = PBXGroup;
+			children = (
+				E7B3819312E885580092A79C /* CCFNumberPickerView */,
+				E7B3818212E884C20092A79C /* AppDelegate.h */,
+				E7B3818312E884C20092A79C /* AppDelegate.m */,
+				E7B3818512E884C20092A79C /* MainWindow.xib */,
+				E7B3818812E884C20092A79C /* CCFNumberPickerViewController.h */,
+				E7B3818912E884C20092A79C /* CCFNumberPickerViewController.m */,
+				E7B3818B12E884C20092A79C /* CCFNumberPickerViewController.xib */,
+				E7B3817A12E884C20092A79C /* Supporting Files */,
+			);
+			path = CCFNumberPicker;
+			sourceTree = "<group>";
+		};
+		E7B3817A12E884C20092A79C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E7B3817B12E884C20092A79C /* CCFNumberPicker-Info.plist */,
+				E7B3817C12E884C20092A79C /* InfoPlist.strings */,
+				E7B3817F12E884C20092A79C /* CCFNumberPicker-Prefix.pch */,
+				E7B3818012E884C20092A79C /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E7B3819312E885580092A79C /* CCFNumberPickerView */ = {
+			isa = PBXGroup;
+			children = (
+				E7ED679512E909A600FA74B5 /* README.rtf */,
+				E7ED678212E907CF00FA74B5 /* bezel-shadow.png.h */,
+				E7ED678312E907CF00FA74B5 /* CCFLimitedConveniences.h */,
+				E7ED678412E907CF00FA74B5 /* CCFNumberPickerContentView.h */,
+				E7ED678512E907CF00FA74B5 /* CCFNumberPickerContentView.m */,
+				E7ED678612E907CF00FA74B5 /* CCFNumberPickerData.h */,
+				E7ED678712E907CF00FA74B5 /* CCFNumberPickerData.m */,
+				E7ED678812E907CF00FA74B5 /* CCFNumberPickerScrollView.h */,
+				E7ED678912E907CF00FA74B5 /* CCFNumberPickerScrollView.m */,
+				E7ED678A12E907CF00FA74B5 /* CCFNumberPickerView.h */,
+				E7ED678B12E907CF00FA74B5 /* CCFNumberPickerView.m */,
+				E7ED678C12E907CF00FA74B5 /* CCFPointerView.h */,
+				E7ED678D12E907CF00FA74B5 /* CCFPointerView.m */,
+				E7ED678E12E907CF00FA74B5 /* License.txt */,
+			);
+			path = CCFNumberPickerView;
+			sourceTree = SOURCE_ROOT;
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E7B3816E12E884C20092A79C /* CCFNumberPicker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E7B3819012E884C20092A79C /* Build configuration list for PBXNativeTarget "CCFNumberPicker" */;
+			buildPhases = (
+				E7B3816B12E884C20092A79C /* Sources */,
+				E7B3816C12E884C20092A79C /* Frameworks */,
+				E7B3816D12E884C20092A79C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CCFNumberPicker;
+			productName = CCFNumberPicker;
+			productReference = E7B3816F12E884C20092A79C /* CCFNumberPicker.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E7B3816612E884C20092A79C /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = E7B3816912E884C20092A79C /* Build configuration list for PBXProject "CCFNumberPicker" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = E7B3816412E884C20092A79C;
+			productRefGroup = E7B3817012E884C20092A79C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E7B3816E12E884C20092A79C /* CCFNumberPicker */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E7B3816D12E884C20092A79C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E7B3817E12E884C20092A79C /* InfoPlist.strings in Resources */,
+				E7B3818712E884C20092A79C /* MainWindow.xib in Resources */,
+				E7B3818D12E884C20092A79C /* CCFNumberPickerViewController.xib in Resources */,
+				E7ED679412E907CF00FA74B5 /* License.txt in Resources */,
+				E7ED679612E909A600FA74B5 /* README.rtf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E7B3816B12E884C20092A79C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E7B3818112E884C20092A79C /* main.m in Sources */,
+				E7B3818412E884C20092A79C /* AppDelegate.m in Sources */,
+				E7B3818A12E884C20092A79C /* CCFNumberPickerViewController.m in Sources */,
+				E7ED678F12E907CF00FA74B5 /* CCFNumberPickerContentView.m in Sources */,
+				E7ED679012E907CF00FA74B5 /* CCFNumberPickerData.m in Sources */,
+				E7ED679112E907CF00FA74B5 /* CCFNumberPickerScrollView.m in Sources */,
+				E7ED679212E907CF00FA74B5 /* CCFNumberPickerView.m in Sources */,
+				E7ED679312E907CF00FA74B5 /* CCFPointerView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		E7B3817C12E884C20092A79C /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E7B3817D12E884C20092A79C /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		E7B3818512E884C20092A79C /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E7B3818612E884C20092A79C /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+		E7B3818B12E884C20092A79C /* CCFNumberPickerViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E7B3818C12E884C20092A79C /* en */,
+			);
+			name = CCFNumberPickerViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E7B3818E12E884C20092A79C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.2;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		E7B3818F12E884C20092A79C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.2;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+		E7B3819112E884C20092A79C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CCFNumberPicker/CCFNumberPicker-Prefix.pch";
+				INFOPLIST_FILE = "CCFNumberPicker/CCFNumberPicker-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		E7B3819212E884C20092A79C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CCFNumberPicker/CCFNumberPicker-Prefix.pch";
+				INFOPLIST_FILE = "CCFNumberPicker/CCFNumberPicker-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E7B3816912E884C20092A79C /* Build configuration list for PBXProject "CCFNumberPicker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E7B3818E12E884C20092A79C /* Debug */,
+				E7B3818F12E884C20092A79C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E7B3819012E884C20092A79C /* Build configuration list for PBXNativeTarget "CCFNumberPicker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E7B3819112E884C20092A79C /* Debug */,
+				E7B3819212E884C20092A79C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E7B3816612E884C20092A79C /* Project object */;
+}
