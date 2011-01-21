@@ -21,8 +21,8 @@ Download and launch the Xcode project.  Its single target builds a minimal appli
 
 To adapt the CCFNumberPickerView to your application, you'll need to copy the following files to the new project:
 
-*       bezel-shadow.png.h
-*       CCFLimitedConveniences.h
+*    bezel-shadow.png.h
+*    CCFLimitedConveniences.h
 *	CCFNumberPickerView.h/.m
 *	CCFNumberPickerScrollView.h/.m
 *	CCFNumberPickerContentView.h/.m
